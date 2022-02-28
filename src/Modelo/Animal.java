@@ -48,46 +48,4 @@ public class Animal extends SerVivo{
         if (this.isEstaVivo()) return "ESTOY GRITANDO MUCHO";
         else return "No puedo gritar";
     }
-        private String grito;
-    private int edad;
-    private float peso;
-    
-    public Animal(String grito, String nombre, int edad, boolean estaVivo) {
-        super(nombre, edad, estaVivo);
-        this.grito = grito;
-    }
-    public String getGrito() {
-        return grito;
-    }
-
-    public void setGrito(String grito) {
-        this.grito = grito;
-    }
-    
-    public String gritar() {
-        if (this.isEstaVivo()) return "ESTOY GRITANDO MUCHO";
-        else return "No puedo gritar";
-    }
-        private String grito;
-    private int edad;
-    private float peso;
-    
-    public Animal(String grito, String nombre, int edad, boolean estaVivo) {
-        super(nombre, edad, estaVivo);
-        this.grito = grito;
-    }
-    public String getGrito() {
-        return grito;
-    }
-
-    public void setGrito(String grito) {
-        this.grito = grito;
-    }
-    
-    public String gritar() {
-        if (this.isEstaVivo()) return "ESTOY GRITANDO MUCHO";
-        else return "No puedo gritar";
-    }
-    }
 }
-    
