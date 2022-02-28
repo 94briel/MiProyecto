@@ -10,6 +10,8 @@ package Modelo;
  */
 public class Animal extends SerVivo{
     private String grito;
+    private int edad;
+    private float peso;
     
     public Animal(String grito, String nombre, int edad, boolean estaVivo) {
         super(nombre, edad, estaVivo);
