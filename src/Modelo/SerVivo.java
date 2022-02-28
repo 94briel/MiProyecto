@@ -12,6 +12,7 @@ public class SerVivo {
     private String nombre;
     private int edad;
     private boolean estaVivo;
+    private String nombreCompleto;
 
     public SerVivo(String nombre, int edad, boolean estaVivo) {
         this.nombre = nombre;
