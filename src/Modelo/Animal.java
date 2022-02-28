@@ -24,7 +24,8 @@ public class Animal extends SerVivo{
     }
     
     public String gritar() {
-        if (this.isEstaVivo()) return "ESTOY GRITANDO";
+        if (this.isEstaVivo()) return "ESTOY GRITANDO MUCHO";
         else return "No puedo gritar";
     }
 }
+    
